@@ -2,6 +2,7 @@
 
 <html>
     <title> This is registration form </title>
+     <link rel="stylesheet" href="style.css">
     
     <body>
         <center>
