@@ -1,6 +1,9 @@
 <!Doctype html>
 
 <html>
+
+ <link rel="stylesheet" href="style.css">
+
     <title> Bank Management System </title>
     
     <body>
