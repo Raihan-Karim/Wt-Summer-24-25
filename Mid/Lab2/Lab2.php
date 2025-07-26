@@ -2,7 +2,7 @@
 
 <html>
 
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="Lab2.css">
 
     <title> Bank Management System </title>
     
