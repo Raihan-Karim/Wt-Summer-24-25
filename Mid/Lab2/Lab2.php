@@ -8,7 +8,7 @@
     
     <body>
         <center>
-            <h1 style ="color:blue;"> Bank Management System </h1>
+            <h1 > Bank Management System </h1>
             <h2 style ="color: blue"> Your Trusted Financial Partner </h2>
 </center>
 
