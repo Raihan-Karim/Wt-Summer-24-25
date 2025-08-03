@@ -3,6 +3,9 @@
 <html>
     <title> Donation Form </title>
     <link rel="stylesheet" href="task_3_style.css">
+    <script src="task_3_valid.js">
+        
+    </script>
 <form>
     <center>
 
@@ -17,40 +20,40 @@
 <table>
     <tr>
         <td> Full Name: </td>
-        <td><input type="text"> </td>
+        <td><input type="text" id= "name"> </td>
 </tr>
 
  <tr>
         <td> Email:  </td>
-        <td><input type="email;"> </td>
+        <td><input type="email" id="email"> </td>
 </tr>
 
 <tr>
         <td> Phone:  </td>
-        <td><input type="text;"> </td>
+        <td><input type="text;" id="pn"> </td>
 </tr>
 
 <tr>
         <td> Donation Amount:   </td>
-        <td><input type="text;"> </td>
+        <td><input type="text;" id="DA"> </td>
 </tr>
 
  <tr>
         <td> Payment Method:  </td>
-        <td> <input type = "radio" name = "des">Cash On Delevery 
-         <input type = "radio" name = "des">Online Banking </td>
+        <td> <input type = "radio" name = "des" id="Cash">Cash On Delevery 
+         <input type = "radio" name = "des" id="Online">Online Banking </td>
 
 </tr>
 
  <tr>
-        <td> <input type = "checkbox">Terms and Condition</td>
+        <td> <input type = "checkbox" id="check">Terms and Condition</td>
 
 </tr>
 
 
 <tr>
     <td> </td>
-    <td> <input type ="button" value = "Submit"></td>
+    <td> <button onclick="handlesubmit()" >Submit</button></td>
 </tr>
 
 
