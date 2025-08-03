@@ -12,16 +12,20 @@ if (name === "" || email ==="" || id === "" || pn === "" || DA === "" || Cash ==
    { alert ("Please Fill the Form");
 return false;
    }
-}
- /* if (id.length !== 5 || isNaN(id))
+
+   
+
+ if (id.length !== 5 || isNaN(id))
     {
   alert(" ID must be exactly 5 digits.");
   return false;
   }
 alert("Registration Complete \n " +
 "Name:" +name + "\n" +
-"ID: " + id + "\n" +
-"Age:" +age + "\n" +
-"Department: " + department + "\n" );    
+"Email: " + email + "\n" +
+"Phone:" +pn + "\n" +
+"Donation " + DA + "\n" );  
 
-}*/
+
+
+}
